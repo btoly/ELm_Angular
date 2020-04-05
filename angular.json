@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "Test3": {
@@ -24,9 +24,23 @@
               "src/assets"
             ],
             "styles": [
+          
+            
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/solid.css",
+              "node_modules/@fortawesome/fontawesome-free/css/fontawesome.css",
+              "node_modules/@fortawesome/fontawesome-free/css/regular.css",
+              "node_modules/animate.css/animate.css",
+              "node_modules/@fortawesome/fontawesome-free/css/brands.css",
+
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/chart.js/dist/Chart.js",
+              "node_modules/hammerjs/hammer.min.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +133,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Test3"
+    }
+  },
+  "defaultProject": "Test3",
+  "cli": {
+    "analytics": "9ff4d1fb-ba7b-4ec9-b48b-89f17b3cc97f"
+  }
 }
